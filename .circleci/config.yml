@@ -7,7 +7,7 @@ defaults: &defaults
   parallelism: 2
 
   docker:
-    - image: circleci/ruby:2.5.0-node-browsers
+    - image: circleci/ruby:2.4.1-stretch
       environment:
         PGHOST: localhost
         PGUSER: split
